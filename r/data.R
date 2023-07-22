@@ -1,0 +1,56 @@
+skills <- tribble(
+  ~area, ~skills, ~detail,
+  "Technology", "Javascript", "My native programming language. My first contact was in 2013 but started to work a few years after this.
+   I've been working with for over 6 years. I've used it in the front-end with React, React Native, Context API, React Hooks, Redux, Zustand consuming different backends, using styled-components, Ant Design, TailwindCSS for stylization and for testing automation using React Testing Library and Jest.
+Using NextJS and Gatsby for personal projects.
+I've been using Node.js for backend with Express, NestJS and Fastify, just for fun and learning purposes using non-relational databases such as MongoDB and Firebase. Using relational databases (Prisma, Sequelize, TypeORM) using PostgreSQL.
+I created chatbots and crawlers using Puppeteer, in some cases optimization of garbage collector in Node.js.
+For tooling using Vite and CRA in most of the cases.
+ES6+, clean code, ESLint, Prettier, EditorConfig always.",
+  NA, "Elixir", "Side language for side projects. Using Phoenix to create APIs and LiveView for fullstack projects. Handling with databases relational and non relation using Ecto, Guardian for authentication. Using the tools for code analysis: credo and dialyxir. I intend to work with Elixir, because of the tolerance fault and the high scalable systems.",
+  NA, "HTML", "I've been using HTML following best practices with semantics and the a11y guide for creating semantic and accessible web apps.", 
+  NA, "CSS", "I've been using Vanilla CSS or SASS as a pre-processor, working with BEM methodology and following best practices for a good and beautiful CSS.
+Most of the cases using flexbox or grid.",
+  NA, "Rust", "",
+  NA, "R", "Using R since 2014 for academical research and data science, using with Bioconductor packages as limma and GEOQuery. Data wrangling and visualization using ggplot2, tidyr, dplyr.
+Integrations with relational and non-relational databases.
+Creation of dashboard using Shiny apps.",
+  NA, "Linux", "Open source enthusiast since 2004. I all just wanted was make some free phone calls and this lead me to linux and other stuff like shell scripting.",
+  NA, "DevOps", "Worked with virtualization with Docker.
+Continuous integration and continuous deploy with Jenkins(configuring Jenkinsfile), CircleCI, SonarQube, Fortify, Github Actions, Cloudflare, Netlify and Vercel.
+Worked using GCP.
+Working with AWS right now(EC2, S3, Cloudfront, LightSail, Amplify)",
+  "Languages", "Portuguese", "Native speaker",
+  NA, "English", "C1 Level",
+)
+
+edu <- tribble(
+  ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
+  "BSc in Biomedical Informatics", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brazil", "During my BSc in biomedical informatics I worked as a intern researcher in bioinformatics
+where I gained expertise in data analysis using R, more specifically ggplot2, tidyr, dplyr,
+bioconductor packages(like limma and GEOQuery), and the creation of dashboards using
+Shiny.",
+)
+
+work <- tribble(
+  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Working as Frontend Engineer with React (using ES6+, React Hooks, Redux, Context API, Jest, RTL and our design system)",
+  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Developing new features iterated from our board using Jira",
+  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Working and fixing bugs",
+  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Refactoring old components to ES6+ (class components to functional components).",
+  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Configuring the mock service for Jest and RTL",
+  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Improving test coverage",
+  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Implemented a new CI/CD pipeline using Github Actions, AWS S3 and Cloudfront",
+  "Software Engineer", "Dasa", "April", 2021, "July", 2022, "São Paulo - Remote", "Worked as Frontend Engineer with React (using ES6+, React Hooks, Context API, React Testing Library and Ant Design).",
+  "Software Engineer", "Dasa", "April", 2021, "July", 2022, "São Paulo - Remote", "Developed new features and fixed bugs iterated from our board using Jira.",
+  "Software Engineer", "Dasa", "April", 2021, "July", 2022, "São Paulo - Remote", "Refactored old components to ES6+",
+  "Software Engineer", "Dasa", "April", 2021, "July", 2022, "São Paulo - Remote", "Created a code standard (only functional components, all typesafe using proptypes and default props)",
+  "Software Engineer", "Dasa", "April", 2021, "July", 2022, "São Paulo - Remote", "Improved the test coverage with the team to 80% (company standards)",
+  "Software Engineer", "Dasa", "April", 2021, "July", 2022, "São Paulo - Remote", "Improved the CI/CD pipeline using Jenkins reducing the problems and time on processing",
+  "Full Stack Engineer", "Softwrap", "August", 2020, "April", 2021, "São Paulo - Remote", "Worked with React and React Native, Node.js, Firebase and Docker",
+  "Full Stack Engineer", "Softwrap", "August", 2020, "April", 2021, "São Paulo - Remote", "I was responsible to coordinate a specific team for the development of a hybrid application using React Native and Firebase for meal tickets from a disclosed company",
+  "Full Stack Engineer", "Softwrap", "August", 2020, "April", 2021, "São Paulo - Remote", "Created a pixel perfect application for accountability of accounting firms",
+  "Full Stack Engineer", "SmartEnvios", "February", 2020, "June", 2020, "Ribeirão Preto", "Worked as Full Stack Engineer with React, Gatsby, TailwindCSS, Node.js, PostgreSQL, MongoDB and Docker",
+  "Full Stack Engineer", "SmartEnvios", "February", 2020, "June", 2020, "Ribeirão Preto", "The monitoring process was done using PM2 and the deploying of these services using AWS like LightSail, EC2, S3",
+  "Full Stack Engineer", "SmartEnvios", "February", 2020, "June", 2020, "Ribeirão Preto", "In this position I was responsible for developing, coding and deploying",
+)

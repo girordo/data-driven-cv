@@ -1,0 +1,80 @@
+---
+name: Tarcísio
+surname: Giroldo
+position: "Software Engineer | Frontend Engineer"
+www: "giroldo.dev"
+email: "tsgiroldo@gmail.com"
+github: girordo
+linkedin: targiroldo
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 7d34eb
+aboutme: "I'm a software engineer with over 4 years of experience across several types of business. Focused on React and it's ecosystem. I'm also like to study new techs like Rust and Elixir. In my free time I like to spent time with my dog, family and friends"
+docname: Resume
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+require(xfun)
+
+packages <- c('vitae'     # The CV's LaTeX Template
+             ,'tibble'    # Data structure for tribbles
+             ,'magrittr'  # The Pipe %>%
+             ,'here'      # Relative File Paths
+             ,'readr'     # Data Loading
+             ,'glue'      # String Manipulation
+            )
+
+xfun::pkg_attach2(packages, message = FALSE)
+
+source(file = here("r","data.R"))
+
+```
+
+# Employment
+
+```{r EMPLOYMENT}
+
+work %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} -- {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Education
+
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} -- {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+\pagebreak
+
+# Skills
+
+```{r SKILLS}
+
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills,
+    why = detail
+  )
+
+```
