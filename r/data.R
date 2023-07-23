@@ -7,19 +7,22 @@ I've been using Node.js for backend with Express, NestJS and Fastify, just for f
 I created chatbots and crawlers using Puppeteer, in some cases optimization of garbage collector in Node.js.
 For tooling using Vite and CRA in most of the cases.
 ES6+, clean code, ESLint, Prettier, EditorConfig always.",
-  NA, "Elixir", "Side language for side projects. Using Phoenix to create APIs and LiveView for fullstack projects. Handling with databases relational and non relation using Ecto, Guardian for authentication. Using the tools for code analysis: credo and dialyxir. I intend to work with Elixir, because of the tolerance fault and the high scalable systems.",
+  NA, "Elixir", "One of my side languages for side projects",
+  NA, "Elixir", "Using Phoenix to create APIs and LiveView for fullstack projects.",
+  NA, "Elixir", "Handling with databases relational and non relation using Ecto.",
+  NA, "Elixir", "Using the tools for code analysis: credo and dialyxir.",
+  NA, "Elixir", "I intend to work with Elixir, because of the tolerance fault and the high scalable systems.",
   NA, "HTML", "I've been using HTML following best practices with semantics and the a11y guide for creating semantic and accessible web apps.", 
   NA, "CSS", "I've been using Vanilla CSS or SASS as a pre-processor, working with BEM methodology and following best practices for a good and beautiful CSS.
 Most of the cases using flexbox or grid.",
-  NA, "Rust", "",
-  NA, "R", "Using R since 2014 for academical research and data science, using with Bioconductor packages as limma and GEOQuery. Data wrangling and visualization using ggplot2, tidyr, dplyr.
+  NA, "Rust", "Side language to create side projects focusing on typesafe and performatic scripts",
+  NA, "R", "My main language during college,  using with Bioconductor packages as limma and GEOQuery. Data wrangling and visualization using ggplot2, tidyr, dplyr.
 Integrations with relational and non-relational databases.
 Creation of dashboard using Shiny apps.",
   NA, "Linux", "Open source enthusiast since 2004. I all just wanted was make some free phone calls and this lead me to linux and other stuff like shell scripting.",
   NA, "DevOps", "Worked with virtualization with Docker.
-Continuous integration and continuous deploy with Jenkins(configuring Jenkinsfile), CircleCI, SonarQube, Fortify, Github Actions, Cloudflare, Netlify and Vercel.
-Worked using GCP.
-Working with AWS right now(EC2, S3, Cloudfront, LightSail, Amplify)",
+Continuous integration and continuous deploy with Jenkins, CircleCI, SonarQube, Fortify, Github Actions, Cloudflare, Netlify and Vercel.
+Worked using GCP. Working with AWS right now(EC2, S3, Cloudfront, LightSail, Amplify)",
   "Languages", "Portuguese", "Native speaker",
   NA, "English", "C1 Level",
 )
