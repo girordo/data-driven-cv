@@ -1,8 +1,8 @@
+name: CI for CV
 on:
   push:
     branches: [main]
-
-name: CI for CV
+permissions: write-all
 
 jobs:
   build:
