@@ -1,0 +1,33 @@
+on:
+  push:
+    branches: [main]
+
+name: CI for CV
+
+jobs:
+  build:
+    name: create the curriculum vitae pdf file
+    runs-on: ubuntu-latest
+    container:
+      image: mlampros/mycvitae:rstudiodev
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+      - name: install texlive
+        run: |
+          sudo apt-get -y update
+          sudo apt-get install -y texlive-base texlive-latex-base
+          sudo apt-get install -y texlive-latex-recommended
+          sudo apt-get install -y texlive-xetex
+          sudo apt-get install -y texlive-fonts-extra
+      - name: render the curriculum vitae
+        run: |
+          Rscript -e "print(getwd())"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-cv.Rmd'), params = list(work_dir = getwd()))"
+      - name: Commit files
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add --all
+          git commit -am "add the cv.pdf file to the 'docs' directory of the repository"
+          git push
