@@ -1,12 +1,11 @@
 skills <- tribble(
   ~area, ~skills, ~detail,
-  "Technology", "Javascript", "My native programming language. My first contact was in 2013 but started to work a few years after this.
-   I've been working with for over 6 years. I've used it in the front-end with React, React Native, Context API, React Hooks, Redux, Zustand consuming different backends, using styled-components, Ant Design, TailwindCSS for stylization and for testing automation using React Testing Library and Jest.
-Using NextJS and Gatsby for personal projects.
-I've been using Node.js for backend with Express, NestJS and Fastify, just for fun and learning purposes using non-relational databases such as MongoDB and Firebase. Using relational databases (Prisma, Sequelize, TypeORM) using PostgreSQL.
-I created chatbots and crawlers using Puppeteer, in some cases optimization of garbage collector in Node.js.
-For tooling using Vite and CRA in most of the cases.
-ES6+, clean code, ESLint, Prettier, EditorConfig always.",
+  "Technology", "Javascript", "My native programming language. My first contact was in 2013 but started to work a few years after this.",
+  "Technology", "Javascript", "I've been working with for over 6 years. I've used it in the front-end with React, React Native, Context API, React Hooks, Redux, Zustand consuming different backends, using styled-components, Ant Design, TailwindCSS for stylization and for testing automation using React Testing Library and Jest",
+  "Technology", "Javascript", "Using NextJS and Gatsby for personal projects.",
+  "Technology", "Javascript", "I've been using Node.js for backend with Express, NestJS and Fastify, just for fun and learning purposes",
+  "Technology", "Javascript", "I created chatbots and crawlers using Puppeteer and Cheerio.",
+  "Technology", "Javascript","ES6+, clean code, ESLint, Prettier, EditorConfig always.",
   NA, "Elixir", "One of my side languages for side projects",
   NA, "Elixir", "Using Phoenix to create APIs and LiveView for fullstack projects.",
   NA, "Elixir", "Handling with databases relational and non relation using Ecto.",
@@ -15,14 +14,16 @@ ES6+, clean code, ESLint, Prettier, EditorConfig always.",
   NA, "HTML", "I've been using HTML following best practices with semantics and the a11y guide for creating semantic and accessible web apps.", 
   NA, "CSS", "I've been using Vanilla CSS or SASS as a pre-processor, working with BEM methodology and following best practices for a good and beautiful CSS.
 Most of the cases using flexbox or grid.",
-  NA, "Rust", "Side language to create side projects focusing on typesafe and performatic scripts",
-  NA, "R", "My main language during college,  using with Bioconductor packages as limma and GEOQuery. Data wrangling and visualization using ggplot2, tidyr, dplyr.
-Integrations with relational and non-relational databases.
-Creation of dashboard using Shiny apps.",
+  NA, "Rust", "Side language to create side projects",
+  NA, "Rust", "Focusing on typesafe and performatic scripts",
+  NA, "R", "Using with Bioconductor packages as limma and GEOQuery.",
+  NA, "R", "Data wrangling and visualization using ggplot2, tidyr, dplyr",
+  NA, "R", "Integrations with relational and non-relational databases.",
+  NA, "R", "Creation of dashboard using Shiny apps.",
   NA, "Linux", "Open source enthusiast since 2004. I all just wanted was make some free phone calls and this lead me to linux and other stuff like shell scripting.",
-  NA, "DevOps", "Worked with virtualization with Docker.
-Continuous integration and continuous deploy with Jenkins, CircleCI, SonarQube, Fortify, Github Actions, Cloudflare, Netlify and Vercel.
-Worked using GCP. Working with AWS right now(EC2, S3, Cloudfront, LightSail, Amplify)",
+  NA, "DevOps", "Worked with virtualization using Docker.",
+  NA, "DevOps", "Continuous integration and continuous deploy with Jenkins, CircleCI, SonarQube, Fortify, Github Actions, Cloudflare, Netlify and Vercel.",
+  NA, "DevOps", "Worked using GCP. Working with AWS right now(EC2, S3, Cloudfront, LightSail, Amplify)",
   "Languages", "Portuguese", "Native speaker",
   NA, "English", "C1 Level",
 )
