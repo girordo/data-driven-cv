@@ -29,5 +29,5 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add --all
-          git commit -am "add the cv.pdf file to the 'docs' directory of the repository"
+          git commit -am "add the data-driven-cv.pdf file to the directory of the repository"
           git push
