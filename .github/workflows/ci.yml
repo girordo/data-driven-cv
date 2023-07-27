@@ -23,8 +23,8 @@ jobs:
       - name: render the curriculum vitae
         run: |
           Rscript -e "print(getwd())"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-cv.Rmd'), params = list(work_dir = getwd()))"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-cv-pt-br.Rmd'), params = list(work_dir = getwd()))"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume.Rmd'), params = list(work_dir = getwd()), output_dir = '/resumes/')"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume-pt-br.Rmd'), params = list(work_dir = getwd()), output_dir = '/resumes/')"
       - name: Commit files
         run: |
           git config --local user.email "actions@github.com"
