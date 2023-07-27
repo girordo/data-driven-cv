@@ -24,10 +24,11 @@ jobs:
         run: |
           Rscript -e "print(getwd())"
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-cv.Rmd'), params = list(work_dir = getwd()))"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-cv-pt-br.Rmd'), params = list(work_dir = getwd()))"
       - name: Commit files
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add --all
-          git commit -am "add the data-driven-cv.pdf file to the directory of the repository"
+          git commit -am "add the cv in english and pt-br files to the directory of the repository"
           git push
