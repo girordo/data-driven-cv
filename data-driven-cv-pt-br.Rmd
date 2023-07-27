@@ -8,7 +8,7 @@ github: girordo
 linkedin: targiroldo
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 7d34eb
-aboutme: "Eu sou um engenheiro de software com mais de 6 anos de experiência em diversos tipos de negócios. Tenho foco em React e seu ecossistema. Tenho experiência em testes unitários, reescrita e refatoração de aplicativos React e desempenho no frontend. Também gosto de estudar novas tecnologias como Rust e Elixir. No meu tempo livre, gosto de passar tempo com meu cachorro, família e amigos."
+aboutme: "Eu sou um engenheiro de software com mais de 6 anos de experiência em diversos tipos de negócios. Tenho foco em React e seu ecossistema. Tenho experiência em testes unitários, reescrita e refatoração de aplicações React e desempenho no frontend. Também gosto de estudar novas tecnologias como Rust e Elixir. No meu tempo livre, gosto de passar tempo com meu cachorro, família e amigos."
 docname: Resume
 output: vitae::awesomecv
 ---

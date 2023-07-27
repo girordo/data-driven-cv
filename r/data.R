@@ -38,7 +38,7 @@ work <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Working as Frontend Engineer with React (using ES6+, React Hooks, Redux, Context API, Jest, RTL and our design system)",
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Developing new features following company's code standards and best practices from our board using Jira",
-  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Maintaining and fixing found bugs by users and QAs",
+  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Maintaining legacy code and fixing found bugs by users and QAs",
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Refactoring old components to ES6+ (class components to functional components).",
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Creation of unit tests guide",
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Created new unit tests and improved the unit test percentage",
