@@ -1,12 +1,15 @@
 name: CI for CV
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+    paths:
+      - data
 permissions: write-all
 
 jobs:
   build:
-    name: create the curriculum vitae pdf file
+    name: Creation of resumes in pt-br and en
     runs-on: ubuntu-latest
     container:
       image: mlampros/mycvitae:rstudiodev
@@ -20,15 +23,13 @@ jobs:
           sudo apt-get install -y texlive-latex-recommended
           sudo apt-get install -y texlive-xetex
           sudo apt-get install -y texlive-fonts-extra
-      - name: render the curriculum vitae
+      - name: Render the resume
         run: |
           Rscript -e "print(getwd())"
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume.Rmd'), params = list(work_dir = getwd()), output_dir = '/resumes/')"
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume-pt-br.Rmd'), params = list(work_dir = getwd()), output_dir = '/resumes/')"
-      - name: Commit files
-        run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add .
           git commit -am "add the cv in english and pt-br files to the directory of the repository"
-          git push
+          git push origin main
