@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add --all
+          git add .
           git commit -am "add the cv in english and pt-br files to the directory of the repository"
           git push
