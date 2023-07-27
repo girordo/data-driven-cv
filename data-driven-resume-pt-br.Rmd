@@ -34,7 +34,7 @@ source(file = here("data","data-pt-br.R"))
 
 ```
 
-# Employment
+# Experiência
 
 ```{r EMPLOYMENT}
 
@@ -49,7 +49,7 @@ work %>%
 
 ```
 
-# Education
+# Educação
 
 ```{r EDUCATION}
 
@@ -66,7 +66,7 @@ edu %>%
 
 \pagebreak
 
-# Skills
+# Competências
 
 ```{r SKILLS}
 
