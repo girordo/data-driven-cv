@@ -43,10 +43,10 @@ skills <- tribble(
 edu <- tribble(
   ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
   "BSc in Biomedical Informatics", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brazil", "During my BSc in biomedical informatics I worked as a intern researcher in bioinformatics",
-  NA, NA, NA, NA, NA, "Gained expertise in data analysis using R, more specifically ggplot2, tidyr, dplyr, bioconductor packages(like limma and GEOQuery), and the creation of dashboards using Shiny."
-  NA, NA, NA, NA, NA, "Worked with Linux environment for bioinformatics handling with shellscript."
-  NA, NA, NA, NA, NA, "Also had courses such as Algorithm and Data Structures, Object Orient Programming, Databases and SQL, Machine Learning, Operating Systems and Distributed Systems."
-  NA, NA, NA, NA, NA, "Learn the basics of C, C++ and Java."
+  NA, NA, NA, NA, NA, "Gained expertise in data analysis using R, more specifically ggplot2, tidyr, dplyr, bioconductor packages(like limma and GEOQuery), and the creation of dashboards using Shiny.",
+  NA, NA, NA, NA, NA, "Worked with Linux environment for bioinformatics handling with shellscript.",
+  NA, NA, NA, NA, NA, "Also had courses such as Algorithm and Data Structures, Object Orient Programming, Databases and SQL, Machine Learning, Operating Systems and Distributed Systems.",
+  NA, NA, NA, NA, NA, "Learn the basics of C, C++ and Java.",
 )
 
 work <- tribble(
