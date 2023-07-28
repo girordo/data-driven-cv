@@ -13,8 +13,8 @@ skills <- tribble(
   "Technology", "Javascript","Following ES6+ best practices always.",
   NA, "Typescript","Using Zod for schema validation",
   NA, "Typescript","Using Prisma for handling with databases (used with Next.js, NestJS and Fastify)",
-  NA, "Typescript","Dealing with kysely and drizzle sometimes"
-  NA, "Typescript","Used to use vite on typescript projects"
+  NA, "Typescript","Dealing with kysely and drizzle sometimes",
+  NA, "Typescript","Used to use vite on typescript projects",
   NA, "Elixir", "One of my side languages for side projects",
   NA, "Elixir", "Using Phoenix to create APIs and LiveView for fullstack projects.",
   NA, "Elixir", "Handling with databases relational and non relation using Ecto.",
