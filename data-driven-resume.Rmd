@@ -59,7 +59,8 @@ edu %>%
     what = degree,
     why = detail,
     when = glue::glue("{startYear} -- {endYear}",.na = ""),
-    where = where
+    where = where,
+    .protect=FALSE
   )
 
 ```
