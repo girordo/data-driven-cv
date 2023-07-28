@@ -20,8 +20,7 @@ skills <- tribble(
   NA, "Elixir", "Handling with databases relational and non relation using Ecto.",
   NA, "Elixir", "Using the tools for code analysis: credo and dialyxir.",
   NA, "HTML", "I've been using HTML following best practices with semantics and the a11y guide for creating semantic and accessible web apps.", 
-  NA, "CSS", "I've been using Vanilla CSS or SASS as a pre-processor, working with BEM methodology and following best practices for a good and beautiful CSS.
-Most of the cases using flexbox or grid.",
+  NA, "CSS", "I've been using Vanilla CSS or SASS as a pre-processor, working with BEM methodology and following best practices for a good and beautiful CSS.",
   NA, "Rust", "Side language to create side projects",
   NA, "Rust", "Focusing on typesafe and performatic scripts",
   NA, "R", "Using with Bioconductor packages as limma and GEOQuery.",
