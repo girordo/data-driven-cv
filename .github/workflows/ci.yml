@@ -31,7 +31,8 @@ jobs:
         run: |
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume.Rmd'), params = list(work_dir = getwd()))"
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume-pt-br.Rmd'), params = list(work_dir = getwd()))"
-      
+          mv data-driven-resume.pdf resumes/
+          mv data-driven-resume-pt-br.pdf resumes/
       - name: Commit files
         run: |
           git config --local user.email "actions@github.com"
