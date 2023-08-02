@@ -1,5 +1,6 @@
 name: CI for CV
 on:
+  workflow_dispatch:
   push:
     paths:
     - .github/workflows/ci.yml
