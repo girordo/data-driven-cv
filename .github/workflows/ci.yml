@@ -20,8 +20,8 @@ jobs:
 
       - name: Render the resumes
         run: |
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume.Rmd'), params = list(work_dir = getwd()))"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume-pt-br.Rmd'), params = list(work_dir = getwd()))"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'markdowns/data-driven-resume.Rmd'), params = list(work_dir = getwd()))"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'markdowns/data-driven-resume-pt-br.Rmd'), params = list(work_dir = getwd()))"
       
       - name: Commit files
         run: |
