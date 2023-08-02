@@ -2,6 +2,7 @@ name: CI for CV
 on:
   push:
     paths:
+    - .github/workflows/ci.yml
     - 'markdowns/**'
     - 'data/**'
     branches:
