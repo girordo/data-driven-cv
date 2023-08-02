@@ -1,6 +1,5 @@
 name: CI for CV
 on:
-  workflow_dispatch:
   push:
     paths:
     - .github/workflows/ci.yml
@@ -8,6 +7,7 @@ on:
     - 'data/**'
     branches:
       - main        
+  workflow_dispatch:
 permissions: write-all
 
 jobs:
