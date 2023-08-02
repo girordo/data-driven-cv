@@ -7,7 +7,6 @@ on:
     - 'data/**'
     branches:
       - main        
-  workflow_dispatch:
 permissions: write-all
 
 jobs:
@@ -30,8 +29,8 @@ jobs:
 
       - name: Render the resumes
         run: |
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume.Rmd'), params = list(work_dir = getwd()), output_file = file.path(getwd(), "resumes/resume.pdf"))"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume-pt-br.Rmd'), params = list(work_dir = getwd()), output_file = file.path(getwd(), "resumes/resume_pt_br.pdf"))"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume.Rmd'), params = list(work_dir = getwd()), output_file = file.path(getwd(), "resume.pdf"))"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume-pt-br.Rmd'), params = list(work_dir = getwd()), output_file = file.path(getwd(), "resume_pt_br.pdf"))"
       
       - name: Commit files
         run: |
