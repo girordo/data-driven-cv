@@ -11,7 +11,7 @@ skills <- tribble(
   "Tecnologia", "Javascript", "Tenho usado Node.js para backend com Express, NestJS e Fastify, apenas por diversão e para fins de aprendizado",
   "Tecnologia", "Javascript", "Criei scrapers e crawlers usando Puppeteer e Cheerio.",
   "Tecnologia", "Javascript", "Sempre seguindo as melhores práticas do ES6+.",
-  NA, "Typescript", "Utilizo Zod para validação de esquemas (schemas)",
+  NA, "Typescript", "Utilizo Zod para validação de esquemas",
   NA, "Typescript", "Para lidar com bancos de dados, utilizo Prisma (usado com Next.js, NestJS e Fastify)",
   NA, "Typescript", "Em algumas ocasiões, trabalho com kysely e drizzle",
   NA, "Typescript", "Costumava usar vite em projetos com Typescript",
