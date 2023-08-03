@@ -5,7 +5,7 @@
 This repository contains the code and data to create an impressive data-driven CV (Curriculum Vitae) using R, R Markdown, vitae, LaTeX, YAML, and automated with GitHub Actions and Docker.
 
 ![Example AwesomeCV](imgs/image-awesomecv.png)
-![Example ModernCV](image.png)
+![Example ModernCV](imgs/image-moderncv.png)
 
 ## Table of Contents
 
