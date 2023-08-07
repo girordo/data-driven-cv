@@ -1,16 +1,16 @@
 ---
-name: Seu nome
-surname: Seu sobrenome
+name: Dade
+surname: Murphy
 address: "Seu endereço"
 profilepic: "./imgs/zero-cool.jpeg"
-position: "Engenheiro de Software | Desenvolvedor Frontend"
+position: "Engenheiro de Software"
 www: "seusite.dev"
 email: "seuemail@email.com"
 github: seugithub
 linkedin: seulinkedin
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: 7d34eb # Aqui você pode escolher sua cor favorita
-aboutme: "Sou um engenheiro de software com mais de 6 anos de experiência no desenvolvimento de aplicativos web modernos. Minha paixão está em criar interfaces de usuário incríveis e funcionais."
+headcolor: 87CEFA # Aqui você pode escolher sua cor favorita
+aboutme: "Sou um engenheiro de software com mais de 12 anos de experiência no desenvolvimento de aplicativos web modernos. Minha paixão está em criar interfaces de usuário incríveis e funcionais. Como hobby eu gosto de assistir animes e hackear o Gibson"
 docname: Currículo
 output: vitae::awesomecv
 ---
