@@ -1,0 +1,122 @@
+---
+name: Seu nome
+surname: Seu sobrenome
+address: "Seu endereço"
+profilepic: "./imgs/zero-cool.jpeg"
+position: "Engenheiro de Software | Desenvolvedor Frontend"
+www: "seusite.dev"
+email: "seuemail@email.com"
+github: seugithub
+linkedin: seulinkedin
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 7d34eb # Aqui você pode escolher sua cor favorita
+aboutme: "Sou um engenheiro de software com mais de 6 anos de experiência no desenvolvimento de aplicativos web modernos. Minha paixão está em criar interfaces de usuário incríveis e funcionais."
+docname: Currículo
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+require(xfun)
+
+packages <- c('vitae', 'tibble', 'magrittr', 'here', 'readr', 'glue')
+
+xfun::pkg_attach2(packages, message = FALSE)
+
+source(file = here("data","data-generic.R"))
+```
+
+# Experiência
+
+```{r EMPLOYMENT}
+
+work %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} -- {endMonth} {endYear}", .na = ""),
+    where = where
+  )
+
+```
+
+# Educação
+
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} -- {endYear}", .na = ""),
+    where = where
+  )
+
+```
+
+\pagebreak
+
+# Competências
+
+```{r SKILLS}
+
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills,
+    why = detail
+  )
+
+```
+
+\pagebreak
+
+# Projetos
+
+```{r PROJECTS}
+
+projects %>%
+  detailed_entries(
+    with = accomplishment,
+    what = area,
+    when = glue::glue("{year}", .na = ""),
+    where = where,
+    why = detail
+  )
+
+```
+
+# Certificações
+
+```{r CERTIFICATIONS}
+
+certifications %>%
+  detailed_entries(
+    with = accomplishment,
+    what = area,
+    when = glue::glue("{year}", .na = ""),
+    where = where,
+    why = detail
+  )
+
+```
+
+# Honras e Prêmios
+
+```{r HONORS}
+
+honors %>%
+  detailed_entries(
+    with = accomplishment,
+    what = area,
+    when = glue::glue("{year}", .na = ""),
+    where = where,
+    why = detail
+  )
+
+```

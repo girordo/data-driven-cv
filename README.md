@@ -31,9 +31,9 @@ git clone https://github.com/your-username/data-driven-cv.git
 cd data-driven-cv
 ```
 
-3. Update the `data/data.r` file with your CV information. The `data/data.r` file will be used as the data source for creating your CV.
+3. Update the `data/data-generic.r` file with your CV information. The `data/data-generic.r` file will be used as the data source for creating your CV.
 
-4. Customize the `resumes/data-driven-resume.Rmd` file according to your preferences and design choices. This file is where you can modify the content and layout of your CV.
+4. Customize the `data-driven-generic.Rmd` file according to your preferences and design choices. This file is where you can modify the content and layout of your CV.
 
 5. Commit and push the changes to your GitHub repository.
 
