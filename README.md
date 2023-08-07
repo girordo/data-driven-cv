@@ -61,6 +61,10 @@ I just followed an tutorial
 
 https://www.youtube.com/watch?v=cMlRAiQUdD8
 
+I also wrote an article in PT-BR
+
+https://dev.to/girordo/como-automatizar-seu-curriculo-utilizando-rmarkdown-e-github-actions-dko
+
 ---
 
 <div align="center">
