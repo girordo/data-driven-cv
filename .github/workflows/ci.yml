@@ -6,9 +6,7 @@ on:
     - 'markdowns/**'
     - 'data/**'
     branches:
-      - main     
-  workflow_dispatch:
-    
+      - main         
 permissions: write-all
 
 jobs:
