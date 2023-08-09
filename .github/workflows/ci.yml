@@ -6,7 +6,7 @@ on:
     - 'markdowns/**'
     - 'data/**'
     branches:
-      - main         
+      - main 
 permissions: write-all
 
 jobs:
