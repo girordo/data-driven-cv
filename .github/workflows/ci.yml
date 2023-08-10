@@ -37,8 +37,8 @@ jobs:
       - name: Rendering cover letter
         run: |
           Rscript -e "remotes::install_github('rnuske/komaletter', upgrade = 'always', dependencies = TRUE)"
-          Rscript -e "rmarkdown::draft('cover-letter.Rmd', template="pdf", package='komaletter', edit=FALSE)"
-          Rscript -e "rmarkdown::render('cover-letter.Rmd')"
+          Rscript -e "rmarkdown::draft(input = file.path(getwd(), 'cover_letter.Rmd', template="pdf", package='komaletter', edit=FALSE)"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover_letter.Rmd')"
           mv cover-letter.pdf cover-letter/
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
