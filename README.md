@@ -1,8 +1,8 @@
-# Data-Driven CV Automated with R and R Markdown
+# Data-Driven CV Automated with R, R markdown and Github Actions
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![CI for CV](https://github.com/girordo/data-driven-cv/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/girordo/data-driven-cv/actions/workflows/ci.yml)
 
-This repository contains the code and data to create an impressive data-driven CV (Curriculum Vitae) using R, R Markdown, vitae, LaTeX, YAML, and automated with GitHub Actions and Docker.
+This repository contains the code and data to create an impressive data-driven CV (Curriculum Vitae) using R, R Markdown, vitae, LaTeX, YAML, and automated with GitHub Actions.
 
 ![Example AwesomeCV](imgs/image-awesomecv.png)
 ![Example ModernCV](imgs/image-moderncv.png)
