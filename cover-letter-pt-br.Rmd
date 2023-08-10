@@ -1,0 +1,23 @@
+---
+author: Tarcísio Giroldo
+subject: Application for Frontend Software Engineer role
+opening: Dear HR,
+closing: Yours truly,
+signature: Tarcísio Giroldo
+
+output: komaletter::komaletter
+---
+
+Em minha trajetória profissional, desenvolvi uma ampla gama de habilidades que abrangem diversos domínios tecnológicos. Com mais de 6 anos de experiência, o Javascript não é apenas uma linguagem de programação para mim; é minha língua nativa. Iniciei essa jornada em 2013, gradualmente transitando para trabalhar profissionalmente com ela, especialmente no frontend. Tenho total domínio sobre o React e seu ecossistema, empregando styled-components, Ant Design e TailwindCSS para estilização sofisticada. Minha expertise se estende ao gerenciamento de estado usando Context API, Redux, Redux Toolkit (RTK) e Zustand. Explorei o poder do React Query da Tanstack para gerenciamento de estado assíncrono e utilizei as APIs axios e fetch para interagir com diversos backends. Promovi testes de unidade por meio da React Testing Library (RTL) e do Jest, além de explorar as capacidades do Next.js para SSR e ISR, criando também blogs com Gatsby.
+
+Mas meu conjunto de habilidades não se limita ao Javascript. Adentrei o mundo do Typescript, utilizando o Zod para validação de esquemas e o Prisma para lidar com bancos de dados em conjunto com Next.js, NestJS e Fastify. O Rust também capturou minha atenção, tornando-se minha linguagem secundária preferida para projetos pessoais. Sou hábil no uso do runtime tokio para programação assíncrona e trabalhei com frameworks como actix-web, axum, gotham e tide. Utilizei ORMs como sqlx e diesel, aumentando a eficiência e a manutenção. Minha exploração se estende ao Elixir, onde aprimorei habilidades na criação de APIs e aplicações fullstack com Phoenix, manipulando bancos de dados com Ecto e utilizando ferramentas de análise de código como credo e dialyxir.
+
+No domínio de HTML/CSS, possuo habilidades para criar aplicações web semânticas e acessíveis, seguindo rigorosamente as diretrizes de acessibilidade (a11y). Tenho experiência em CSS e aplico a metodologia BEM para melhor organização e manutenção do código. Minha proficiência também se estende à manipulação de dados com R, onde utilizei pacotes Bioconductor como limma e GEOQuery, realizei tratamento e visualização de dados com ggplot2, tidyr e dplyr, além de integrações com bancos de dados relacionais e não relacionais.
+
+Minha jornada também abrange práticas DevOps, onde adotei o Docker para agilizar o deployment de aplicações. Orquestrei integração e deployment contínuos com Jenkins, CircleCI e Github Actions, além de utilizar plataformas de nuvem como Cloudflare, Netlify e Vercel para projetos pessoais. Explorei avaliação de qualidade de código com SonarQube e reforço de segurança com Fortify. Minha familiaridade com AWS - EC2, S3, Cloudfront, LightSail e Amplify - evidencia minha proficiência em gerenciamento de infraestrutura na nuvem. Além disso, estou no processo de aprimoramento em Terraform e Ansible para expandir ainda mais meu conjunto de habilidades em DevOps.
+
+No âmbito de bancos de dados, minha experiência abrange sistemas relacionais e não relacionais, incluindo PostgreSQL, MongoDB e a integração de Firebase e Supabase em diversos projetos. Fluente em português como língua nativa e proficiente em inglês no nível C1, prospero em ambientes linguísticos diversos. Minha gama de habilidades multifacetadas reflete meu compromisso em estar na vanguarda da tecnologia e minha paixão inabalável por criar soluções impactantes.
+
+Como hobby, aprecio passar tempo com minha família e meu cachorro, além de conviver com amigos. Sou uma pessoa comunicativa e empática, sempre buscando entender todos os lados da conversa. Tenho grande apreço por estudar novas tecnologias para frontend e programação funcional (atualmente estou aprendendo Elixir e Phoenix).
+
+Acredito firmemente que seria uma ótima adição à equipe. Agradeço por dedicar tempo à revisão de minha candidatura. Aguardo a oportunidade de discutir como minha experiência se alinha aos objetivos de sua equipe com mais detalhes.
