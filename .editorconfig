@@ -10,3 +10,13 @@ end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = false
 insert_final_newline = false
+
+[*.{R, Rmd}]
+indent_style = space
+indent_size = 3
+end_of_line = lf
+max_line_length = 100
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
