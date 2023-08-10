@@ -38,7 +38,9 @@ jobs:
         run: |
           Rscript -e "remotes::install_github('rnuske/komaletter', upgrade = 'always', dependencies = TRUE)"
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover-letter.Rmd'))"
+          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover-letter-pt-br.Rmd'))"
           mv cover-letter.pdf cover-letter/
+          mv cover-letter-pt-br.pdf cover-letter/
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
