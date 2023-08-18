@@ -61,7 +61,9 @@ I just followed an tutorial
 
 https://www.youtube.com/watch?v=cMlRAiQUdD8
 
-I also wrote an article in PT-BR
+I also wrote two articles about it
+
+https://dev.to/girordo/how-to-automate-your-resume-using-r-r-markdown-and-github-actions-2bej
 
 https://dev.to/girordo/como-automatizar-seu-curriculo-utilizando-rmarkdown-e-github-actions-dko
 
