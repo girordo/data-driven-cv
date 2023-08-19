@@ -1,8 +1,8 @@
 ---
 author: Tarcísio Giroldo
-subject: Application for Frontend Software Engineer role
-opening: Dear HR,
-closing: Yours truly,
+subject: Vaga de Engenheiro de Software Frontend
+opening: Caro HR,
+closing: Atenciosamente,
 signature: Tarcísio Giroldo
 
 output: komaletter::komaletter
