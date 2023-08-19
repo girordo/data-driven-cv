@@ -1,0 +1,23 @@
+---
+author: Tarcísio Giroldo
+subject: Application for Frontend Software Engineer role
+opening: Dear HR,
+closing: Yours truly,
+signature: Tarcísio Giroldo
+
+output: komaletter::komaletter
+---
+
+In my professional journey, I have cultivated a diverse set of skills that span various technology domains. With over 6 years of experience, Javascript is not just a programming language for me; it's my native tongue. I embarked on this journey in 2013, gradually transitioning into working professionally with it, particularly on the frontend. I have a robust command over React and its ecosystem, employing styled-components, Ant Design, and TailwindCSS for sophisticated stylization. My expertise extends to state management using Context API, Redux, Redux Toolkit (RTK), and Zustand. I've harnessed the power of React Query from Tanstack for asynchronous state management and used axios and fetch APIs to interact with diverse backends. I've championed unit testing through React Testing Library (RTL) and Jest, and I've harnessed the capabilities of Next.js for SSR and ISR while also creating blog sites with Gatsby.
+
+But my skill set doesn't stop at Javascript. I've delved into Typescript, leveraging Zod for schema validation, and Prisma for database handling in conjunction with Next.js, NestJS, and Fastify. Rust has also captured my attention, becoming my preferred side language for personal projects. I'm adept at using the tokio runtime for asynchronous programming and working with frameworks like actix-web, axum, gotham, and tide. I've utilized ORMs such as sqlx and diesel, enhancing efficiency and maintainability. My exploration extends to Elixir, where I've honed skills in creating APIs and fullstack applications with Phoenix, handling databases with Ecto, and utilizing code analysis tools like credo and dialyxir.
+
+In the realm of HTML/CSS, I'm skilled in creating semantic and accessible web applications, meticulously following a11y guidelines. I'm experienced in CSS, implementing the BEM methodology to enhance code organization and maintainability. My proficiency extends to the domain of data manipulation with R, where I've leveraged Bioconductor packages like limma and GEOQuery, conducted data wrangling and visualization with ggplot2, tidyr, and dplyr, and orchestrated integrations with both relational and non-relational databases.
+
+My journey also encompasses DevOps practices, where I've embraced Docker to streamline application deployment. I've orchestrated continuous integration and deployment using Jenkins, CircleCI, and Github Actions, while also utilizing cloud platforms like Cloudflare, Netlify, and Vercel for personal projects. I've ventured into code quality assessment with SonarQube and security enforcement through Fortify. My familiarity with AWS - EC2, S3, Cloudfront, LightSail, and Amplify - exemplifies my proficiency in cloud infrastructure management. Additionally, I'm in the process of mastering Terraform and Ansible to further enhance my DevOps arsenal.
+
+Related to databases, my experience spans both relational and non-relational systems, including PostgreSQL, MongoDB, and the integration of Firebase and Supabase into various projects. Fluent in Portuguese as a native speaker and proficient in English at a C1 level, I thrive in diverse linguistic environments. My multifaceted skill set reflects my commitment to staying at the forefront of technology and my unwavering passion for creating impactful solutions.
+As a hobby I enjoy spending time with my family and my dog ​​and also hanging out with my friends. I am a communicative and empathetic person and I always try to understand the other side of the conversation. I really appreciate studying new techs for frontend and functional programming (right now I'm learning Elixir and Phoenix).
+
+I firmly believe that I’d be a great addition to the team. Thanks for taking the time to review my application.
+

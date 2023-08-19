@@ -1,0 +1,22 @@
+---
+author: Tarcísio Giroldo
+subject: Application for Frontend Software Engineer role
+opening: Dear HR,
+closing: Yours truly,
+signature: Tarcísio Giroldo
+
+output: komaletter::komaletter
+---
+
+Na minha jornada profissional, desenvolvi um conjunto diversificado de habilidades que abrangem diversos domínios de tecnologia. Com mais de 6 anos de experiência, o Javascript não é apenas uma linguagem de programação para mim; é minha língua nativa. Iniciei essa jornada em 2013, fazendo uma transição gradual para trabalhar profissionalmente com ela, especialmente no frontend. Tenho um comando robusto sobre o React e seu ecossistema, usando styled-components, Ant Design e TailwindCSS para estilização sofisticada. Minha expertise se estende ao gerenciamento de estado usando a API de Contexto, Redux, Redux Toolkit (RTK) e Zustand. Explorei o poder do React Query da Tanstack para gerenciamento de estado assíncrono e utilizei as APIs axios e fetch para interagir com diversos backends. Defendi os testes unitários por meio do React Testing Library (RTL) e Jest, e aproveitei as capacidades do Next.js para SSR e ISR, além de criar sites de blog com o Gatsby.
+
+Mas meu conjunto de habilidades não para no Javascript. Me aprofundei no Typescript, utilizando o Zod para validação de esquema e o Prisma para manipulação de bancos de dados em conjunto com o Next.js, NestJS e Fastify. O Rust também capturou minha atenção, se tornando minha linguagem secundária preferida para projetos pessoais. Sou habilidoso no uso do tokio runtime para programação assíncrona e no trabalho com frameworks como actix-web, axum, gotham e tide. Utilizei ORMs como sqlx e diesel, aprimorando eficiência e manutenibilidade. Minha exploração se estende ao Elixir, onde aprimorei habilidades na criação de APIs e aplicações fullstack com Phoenix, manipulação de bancos de dados com Ecto e utilização de ferramentas de análise de código como credo e dialyxir.
+
+No domínio do HTML/CSS, tenho habilidade para criar aplicações web semânticas e acessíveis, seguindo meticulosamente as diretrizes de acessibilidade (a11y). Tenho experiência em CSS, implementando a metodologia BEM para aprimorar a organização e manutenção do código. Minha proficiência se estende ao domínio da manipulação de dados com R, onde utilizei pacotes do Bioconductor como limma e GEOQuery, realizei manipulação e visualização de dados com ggplot2, tidyr e dplyr, e orquestrei integrações com bancos de dados relacionais e não relacionais.
+
+Minha jornada também abrange práticas de DevOps, onde adotei o Docker para otimizar o deployment de aplicações. Orquestrei integração e deployment contínuos usando Jenkins, CircleCI e Github Actions, além de utilizar plataformas de nuvem como Cloudflare, Netlify e Vercel para projetos pessoais. Me aventurei na avaliação da qualidade do código com o SonarQube e na implementação de segurança por meio do Fortify. Minha familiaridade com a AWS - EC2, S3, Cloudfront, LightSail e Amplify - exemplifica minha proficiência em gerenciamento de infraestrutura em nuvem. Além disso, estou no processo de dominar o Terraform e o Ansible para aprimorar ainda mais meu arsenal de DevOps.
+
+Relacionado a bancos de dados, minha experiência abrange sistemas tanto relacionais quanto não relacionais, incluindo PostgreSQL, MongoDB e a integração do Firebase e Supabase em diversos projetos. Fluente em português como falante nativo e proficiente em inglês em nível C1, prospero em ambientes linguísticos diversos. Meu conjunto de habilidades multifacetado reflete meu compromisso em estar na vanguarda da tecnologia e minha paixão incansável por criar soluções impactantes.
+Como hobby, gosto de passar tempo com minha família e meu cachorro, além de sair com meus amigos. Sou uma pessoa comunicativa e empática e sempre tento entender o outro lado da conversa. Realmente aprecio estudar novas tecnologias para frontend e programação funcional (atualmente estou aprendendo Elixir e Phoenix).
+
+Acredito firmemente que seria uma ótima adição à equipe. Obrigado por dedicar tempo para avaliar minha candidatura.
