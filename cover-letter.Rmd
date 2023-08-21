@@ -22,9 +22,8 @@ During my time as a Full Stack Engineer at Softwrap, I excelled in coordinating 
 
 In my previous role at SmartEnvios, I demonstrated my proficiency in a broader technology stack, handling full-stack development using React, Gatsby, TailwindCSS, Node.js, PostgreSQL, MongoDB, and Docker. I successfully contributed to the creation of the company's website, developed web scraping solutions, and implemented efficient deployment strategies.
 
-As a dedicated learner, I continually invest time in expanding my skillset. Currently, I am learning Elixir and Phoenix to further enrich my programming capabilities. My holistic approach to development, collaborative spirit, and proactive problem-solving make me confident that I can contribute effectively to [Company Name]'s ongoing success.
+As a dedicated learner, I continually invest time in expanding my skillset. Currently, I am learning Elixir and Phoenix to further enrich my programming capabilities. My holistic approach to development, collaborative spirit, and proactive problem-solving make me confident that I can contribute effectively to Belong ongoing success.
 
 Thank you for considering my application. I look forward to the opportunity to discuss how my experience aligns with your team's goals in more detail.
-
 
 
