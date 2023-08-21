@@ -32,8 +32,7 @@ jobs:
         run: |
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume.Rmd'), params = list(work_dir = getwd()))"
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume-pt-br.Rmd'), params = list(work_dir = getwd()))"
-          mv data-driven-resume.pdf resumes/
-          mv data-driven-resume-pt-br.pdf resumes/
+          mv *.pdf resumes/
 
       - name: Rendering cover letter
         run: |
@@ -42,8 +41,8 @@ jobs:
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover-letter-formal.Rmd'))"
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover-letter-formal-pt-br.Rmd'))"
           Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover-letter-pt-br.Rmd'))"
-          mv cover-letter.pdf cover-letter/
-          mv cover-letter-pt-br.pdf cover-letter/
+          mv *.pdf cover-letter/ 
+
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
