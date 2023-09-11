@@ -67,7 +67,7 @@ work <- tribble(
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Melhorei o pipeline de CI/CD usando Jenkins, reduzindo problemas e tempo de processamento (redução de 30%)",
   "Engenheiro Full Stack", "Softwrap", "Agosto", 2020, "Abril", 2021, "São Paulo - Remoto", "Trabalhei com React e React Native, Node.js, Firebase e Docker",
   "Engenheiro Full Stack", "Softwrap", "Agosto", 2020, "Abril", 2021, "São Paulo - Remoto", "Fui responsável por coordenar uma equipe específica para o desenvolvimento de um aplicativo híbrido usando React Native e Firebase para vales-refeição de uma empresa divulgada",
-  "Engenheiro Full Stack", "Softwrap", "Agosto", 2020, "Abril", 2021, "São Paulo - Remoto", "Liderei essa equipe de 3 desenvolvedores",
+  "Engenheiro Full Stack", "Softwrap", "Agosto", 2020, "Abril", 2021, "São Paulo - Remoto", "Liderei uma equipe de 3 desenvolvedores",
   "Engenheiro Full Stack", "Softwrap", "Agosto", 2020, "Abril", 2021, "São Paulo - Remoto", "Ajudei e ensinei os desenvolvedores menos experientes",
   "Engenheiro Full Stack", "Softwrap", "Agosto", 2020, "Abril", 2021, "São Paulo - Remoto", "Criei um aplicativo React Native perfeitamente alinhado para a prestação de contas de empresas de contabilidade",
   "Engenheiro Full Stack", "SmartEnvios", "Fevereiro", 2020, "Junho", 2020, "Ribeirão Preto", "Trabalhei como Engenheiro Full Stack com React, Gatsby, TailwindCSS, Node.js, PostgreSQL, MongoDB e Docker",
