@@ -1,16 +1,16 @@
 ---
 name: Tarcísio
 surname: Giroldo
-position: "Engenheiro de Software Senior"
+position: "Senior Software Engineer"
 www: "giroldo.dev"
 email: "tsgiroldo@gmail.com"
 github: girordo
 linkedin: targiroldo
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: CC5500
-aboutme: "Eu sou um engenheiro de software senior com mais de 6 anos de experiência em diversos tipos de negócios. Tenho foco em React e seu ecossistema. Tenho experiência em testes unitários, reescrita e refatoração de aplicações React e desempenho no frontend. Também gosto de estudar novas tecnologias como Rust e Elixir. No meu tempo livre, gosto de passar tempo com meu cachorro, família e amigos."
+aboutme: "I'm a senior software engineer with over 6 years of experience across several types of business. Focused on React and it's ecosystem. Experienced in unit testing, React rewriting and refactoring apps and frontend performance. I'm also like to study new techs like Rust and Elixir. In my free time I like to spent time with my dog, family and friends"
 docname: Resume
-output: vitae::awesomecv
+output: vitae::moderncv
 ---
 
 ```{r setup, include=FALSE}
@@ -30,11 +30,11 @@ packages <- c('vitae'     # The CV's LaTeX Template
 
 xfun::pkg_attach2(packages, message = FALSE)
 
-source(file = here("data","data-pt-br.R"))
+source(file = here("data","data.R"))
 
 ```
 
-# Experiência
+# Employment
 
 ```{r EMPLOYMENT}
 
@@ -49,7 +49,7 @@ work %>%
 
 ```
 
-# Educação
+# Education
 
 ```{r EDUCATION}
 
@@ -59,22 +59,8 @@ edu %>%
     what = degree,
     why = detail,
     when = glue::glue("{startYear} -- {endYear}",.na = ""),
-    where = where
-  )
-
-```
-
-\pagebreak
-
-# Competências
-
-```{r SKILLS}
-
-skills %>%
-  detailed_entries(
-    with = area,
-    what = skills,
-    why = detail
+    where = where,
+    .protect=FALSE
   )
 
 ```
