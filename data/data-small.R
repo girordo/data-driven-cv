@@ -3,7 +3,7 @@ work <- tribble(
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Languages used: Javascript, Typescript, Python, HTML, CSS, YAML",
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Working as Frontend Engineer using React and it's ecosystem (CRA, Next.js, using ES6+, React Hooks, React Query, Redux, Context API, Jest, RTL and our design system)",
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Maintained overall codebase, keeping all libraries updated",
-  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Developing new features following company's code standards and best practices. itaretaed through SCRUM from the board using Zenhub, Jira and Monday to manage",
+  "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Developing new features following company's code standards and best practices. iterated through SCRUM from the board using Zenhub, Jira and Monday to manage",
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Refactoring old components to ES6+ (class components to functional components).",
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Created unit tests guide to help the team.",
   "Frontend Engineer", "Spocket", "July", 2022, "Present", NA, "Canada - Remote", "Developed new unit tests and improved the unit test percentage",
