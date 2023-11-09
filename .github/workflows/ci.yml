@@ -36,10 +36,7 @@ jobs:
       - name: Rendering cover letter
         run: |
           Rscript -e "remotes::install_github('rnuske/komaletter', upgrade = 'always', dependencies = TRUE)"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover-letter.Rmd'))"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover-letter-formal.Rmd'))"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover-letter-formal-pt-br.Rmd'))"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'cover-letter-pt-br.Rmd'))"
+          Rscript -e "files_list <- c('cover-letter.Rmd', 'cover-letter-formal.Rmd', 'cover-letter-formal-pt-br.Rmd', 'cover-letter-pt-br.Rmd'); for (i in files_list) {rmarkdown::render(input = file.path(getwd(), i), params = list(work_dir = getwd()))}"
           mv *.pdf cover-letter/ 
 
         env:
