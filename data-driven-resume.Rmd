@@ -10,7 +10,7 @@ date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: CC5500
 aboutme: "I'm a senior software engineer with over 6 years of experience across several types of business. Focused on React and it's ecosystem. Experienced in unit testing, React rewriting and refactoring apps and frontend performance. I'm also like to study new techs like Rust and Elixir. In my free time I like to spent time with my dog, family and friends"
 docname: Resume
-output: vitae::awesomecv
+output: vitae::moderncv
 ---
 
 ```{r setup, include=FALSE}
