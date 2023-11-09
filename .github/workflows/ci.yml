@@ -30,9 +30,7 @@ jobs:
 
       - name: Render the resumes
         run: |
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume.Rmd'), params = list(work_dir = getwd()))"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume-pt-br.Rmd'), params = list(work_dir = getwd()))"
-          Rscript -e "rmarkdown::render(input = file.path(getwd(), 'data-driven-resume-small.Rmd'), params = list(work_dir = getwd()))"
+          Rscript -e "files_list <- c("data-driven-resume.Rmd", "data-driven-resume-pt-br.Rmd", "data-driven-resume-pt-br-small.Rmd", "data-driven-resume-small.Rmd"); for (i in files_list) {rmarkdown::render(input = file.path(getwd(), i), params = list(work_dir = getwd()))}"
           mv *.pdf resumes/
 
       - name: Rendering cover letter
