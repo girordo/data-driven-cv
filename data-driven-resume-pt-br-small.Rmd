@@ -8,8 +8,7 @@ github: girordo
 linkedin: targiroldo
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: CC5500
-aboutme: "Eu sou um engenheiro de software senior com mais de 6 anos de experiência em diversos tipos de negócios. Tenho foco em React e seu ecossistema. Tenho experiência em testes unitários, reescrita e refatoração de aplicações React e desempenho no frontend. Também gosto de estudar novas tecnologias como Rust e Elixir. No meu tempo livre, gosto de passar tempo com meu cachorro, família e amigos."
-docname: Resume
+docname: Currículo
 output: vitae::moderncv
 ---
 
@@ -30,7 +29,7 @@ packages <- c('vitae'     # The CV's LaTeX Template
 
 xfun::pkg_attach2(packages, message = FALSE)
 
-source(file = here("data","data-pt-br.R"))
+source(file = here("data","data-pt-br-small.R"))
 
 ```
 
@@ -60,21 +59,6 @@ edu %>%
     why = detail,
     when = glue::glue("{startYear} -- {endYear}",.na = ""),
     where = where
-  )
-
-```
-
-\pagebreak
-
-# Competências
-
-```{r SKILLS}
-
-skills %>%
-  detailed_entries(
-    with = area,
-    what = skills,
-    why = detail
   )
 
 ```
