@@ -1,15 +1,15 @@
 work <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Engenheiro Frontend", "Spocket", "Julho", 2022, "Presente", NA, "Canadá - Remoto", "Trabalhando como Engenheiro Frontend utilizando React e seu ecossistema (CRA, Next.js, usando ES6+, React Hooks, React Query, Redux, Context API, Jest, RTL e nosso sistema de design)",
+  "Engenheiro Frontend", "Spocket", "Julho", 2022, "Presente", NA, "Canadá - Remoto", "Trabalhando como Engenheiro Frontend utilizando React e seu ecossistema (CRA, Next.js, Vite, usando ES6+, React Hooks, React Query, Redux, Context API, Jest, RTL e nosso design system)",
   "Engenheiro Frontend", "Spocket", "Julho", 2022, "Presente", NA, "Canadá - Remoto", "Mantive o código geral, mantendo todas as bibliotecas atualizadas",
   "Engenheiro Frontend", "Spocket", "Julho", 2022, "Presente", NA, "Canadá - Remoto", "Desenvolvendo novas funcionalidades seguindo os padrões de código da empresa e as melhores práticas. Iterado através do SCRUM a partir do quadro usando Zenhub, Jira e Monday para gerenciamento",
   "Engenheiro Frontend", "Spocket", "Julho", 2022, "Presente", NA, "Canadá - Remoto", "Refatorando componentes antigos para ES6+ (de componentes de classe para componentes funcionais).",
   "Engenheiro Frontend", "Spocket", "Julho", 2022, "Presente", NA, "Canadá - Remoto", "Criei um guia de testes unitários para ajudar a equipe.",
   "Engenheiro Frontend", "Spocket", "Julho", 2022, "Presente", NA, "Canadá - Remoto", "Desenvolvi novos testes unitários e melhorei a porcentagem de cobertura de testes",
   "Engenheiro Frontend", "Spocket", "Julho", 2022, "Presente", NA, "Canadá - Remoto", "Implementei um novo pipeline de CI/CD usando Github Actions, AWS S3 e Cloudfront",
-  "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Trabalhei como Engenheiro Frontend com React (usando ES6+, React Hooks, Context API, React Testing Library e Ant Design).",
+  "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Trabalhei como Engenheiro de Software focado no frontend com React (usando ES6+, React Hooks, Context API, React Testing Library e Ant Design).",
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Desenvolvi novas funcionalidades e corrigi bugs iterados através do SCRUM a partir do quadro usando Jira.",
-  "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Refatorei componentes antigos para ES6+ (de componentes de classe para componentes funcionais), melhorando a DX do nosso sistema de design",
+  "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Refatorei componentes antigos para ES6+ (de componentes de classe para componentes funcionais), melhorando a DX do nosso design system",
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Criei um padrão de código baseado nas melhores práticas da comunidade",
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Criei novos testes unitários e melhorei a cobertura de testes do código para 80% (padrões da empresa)",
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Melhorei o pipeline de CI/CD usando Jenkins, reduzindo problemas e tempo de processamento (redução de 30%)",
@@ -27,7 +27,7 @@ work <- tribble(
 
 edu <- tribble(
   ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
-  "Bacharelado em Informática Biomédica", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brasil", "Durante o meu Bacharelado em Informática Biomédica, trabalhei como pesquisador estagiário em bioinformática",
+  "Bacharelado em Informática Biomédica", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brasil", "Durante o meu Bacharelado em Informática Biomédica, fiz iniciação científica em bioinformática",
   "Bacharelado em Informática Biomédica", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brasil", "Adquiri experiência em análise de dados usando R, mais especificamente ggplot2, tidyr, dplyr, pacotes do bioconductor (como limma e GEOQuery), e a criação de dashboards usando Shiny.",
   "Bacharelado em Informática Biomédica", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brasil", "Também cursei disciplinas como Algoritmos e Estruturas de Dados, Programação Orientada a Objetos, Bancos de Dados e SQL, Aprendizado de Máquina, Sistemas Operacionais e Sistemas Distribuídos.",
   "Bacharelado em Informática Biomédica", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brasil", "Aprendi o básico de C, C++, Java e R.",
