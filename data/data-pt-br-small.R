@@ -10,7 +10,7 @@ work <- tribble(
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Trabalhei como Engenheiro de Software focado no frontend com React (usando ES6+, React Hooks, Context API, React Testing Library e Ant Design).",
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Desenvolvi novas funcionalidades e corrigi bugs iterados através do SCRUM a partir do quadro usando Jira.",
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Refatorei componentes antigos para ES6+ (de componentes de classe para componentes funcionais), melhorando a DX do nosso design system",
-  "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Criei um padrão de código baseado nas melhores práticas da comunidade",
+  "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Criamos um padrão de código seguindo as boas práticas do ECMAScript",
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Criei novos testes unitários e melhorei a cobertura de testes do código para 80% (padrões da empresa)",
   "Engenheiro de Software", "Dasa", "Abril", 2021, "Julho", 2022, "São Paulo - Remoto", "Melhorei o pipeline de CI/CD usando Jenkins, reduzindo problemas e tempo de processamento (redução de 30%)",
   "Engenheiro Full Stack", "Softwrap", "Agosto", 2020, "Abril", 2021, "São Paulo - Remoto", "Trabalhei com React e React Native, Node.js, Firebase e Docker",
