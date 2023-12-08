@@ -32,6 +32,13 @@ work <- tribble(
   "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Implemented jQuery and Bootstrap for responsive and visually appealing designs.",
   "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Customized solutions based on client needs, delivering tailored web applications.",
   "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Managed deployment using cPanel, SSH, rsync, and FTP",
+  "Web developer", "AulaUm", "January", 2017, "December", 2017, "São Paulo", "Created and managed a whole business in a courses platform for legal area.",
+  "Web developer", "AulaUm", "January", 2017, "December", 2017, "São Paulo", "Developed using PHP, HTML5, CSS3 and vanilla Javascript.",
+  "Web developer", "AulaUm", "January", 2017, "December", 2017, "São Paulo", "Responsible for the payment gateway implementation.",
+  "Web developer", "FUNDACE", "October", 2013, "December", 2015, "Ribeirão Preto", "Developed a new institutional website for a specific department.",
+  "Web developer", "FUNDACE", "October", 2013, "December", 2015, "Ribeirão Preto", "Implemented a short-term courses e-commerce.",
+  "Web developer", "FUNDACE", "October", 2013, "December", 2015, "Ribeirão Preto", "Worked using HTML5, CSS3, Javascript and Wordpress with Woocommerce.",
+  "Web developer", "FUNDACE", "October", 2013, "December", 2015, "Ribeirão Preto", "Managed deployment using cPanel and SSH.",
 )
 
 edu <- tribble(
