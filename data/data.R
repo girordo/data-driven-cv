@@ -27,11 +27,11 @@ work <- tribble(
   "Full Stack Engineer", "SmartEnvios", "February", 2020, "June", 2020, "Ribeirão Preto", "Developed crawlers using Node.js, Puppeteer and Cheerio for scraping and crawling.",
   "Full Stack Engineer", "SmartEnvios", "February", 2020, "June", 2020, "Ribeirão Preto", "Deployed on LightSail, uploading the exchange data to S3 and registering all operations in PostgreSQL.",
   "Full Stack Engineer", "SmartEnvios", "February", 2020, "June", 2020, "Ribeirão Preto", "The monitoring process was done using PM2 and the deploying of this related service.",
-  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Independently developed diverse institutional websites and landing pages."
-  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Utilizing HTML5 and CSS3, also with a little bit vanilla Javascript and PHP."
-  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Implemented jQuery and Bootstrap for responsive and visually appealing designs."
-  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Customized solutions based on client needs, delivering tailored web applications."
-  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Managed deployment using cPanel, SSH, rsync, and FTP"
+  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Independently developed diverse institutional websites and landing pages.",
+  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Utilizing HTML5 and CSS3, also with a little bit vanilla Javascript and PHP.",
+  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Implemented jQuery and Bootstrap for responsive and visually appealing designs.",
+  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Customized solutions based on client needs, delivering tailored web applications.",
+  "Full Stack Developer", "Freelance", "January", 2018, "July", 2020, "Ribeirão Preto - Remote", "Managed deployment using cPanel, SSH, rsync, and FTP",
 )
 
 edu <- tribble(
