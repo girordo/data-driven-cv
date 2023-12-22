@@ -49,6 +49,8 @@ work %>%
 
 ```
 
+\pagebreak
+
 # Education
 
 ```{r EDUCATION}
@@ -65,7 +67,18 @@ edu %>%
 
 ```
 
-\pagebreak
+# Languages
+
+```{r LANGUAGES}
+
+languages %>%
+  detailed_entries(
+    with = lang,
+    what = level,
+    why = fluency,
+  )
+
+```
 
 # Skills
 

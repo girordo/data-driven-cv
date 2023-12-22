@@ -45,9 +45,15 @@ edu <- tribble(
   ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
   "BSc in Biomedical Informatics", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brazil", "During my BSc in biomedical informatics I worked as a intern researcher in bioinformatics",
   "BSc in Biomedical Informatics", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brazil", "Gained expertise in data analysis using R, more specifically ggplot2, tidyr, dplyr, bioconductor packages(like limma and GEOQuery), and the creation of dashboards using Shiny.",
-  "BSc in Biomedical Informatics", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brazil", "Stronged my Linux and shellscript core using to manage virtual machines and administrate a local server from the lab.",
+  "BSc in Biomedical Informatics", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brazil", "Strengthened my Linux and shellscript core using to manage virtual machines and administrate a local server from the lab.",
   "BSc in Biomedical Informatics", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brazil", "Also had classes such as Algorithm and Data Structures, Object Orient Programming, Databases and SQL, Machine Learning, Operating Systems and Distributed Systems.",
   "BSc in Biomedical Informatics", 2012, 2020, "Universidade de São Paulo", "Ribeirão Preto, São Paulo, Brazil", "Learn the basics of C, C++, Java and R.",
+)
+
+languages <- tribble(
+  ~lang, ~level, ~fluency,
+  NA, "Portuguese", "Native speaker",
+  "C1/C2", "English", "Advanced"
 )
 
 skills <- tribble(
@@ -91,6 +97,4 @@ skills <- tribble(
   NA, "Databases", "Relational such as PostgreSQL",
   NA, "Databases", "Non-relational such as MongoDB",
   NA, "Databases", "Worked with Firebase in some projects and Supabase for personal projects",
-  "Languages", "Portuguese", "Native speaker",
-  NA, "English", "C1 Level",
 )
