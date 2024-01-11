@@ -34,7 +34,7 @@ jobs:
           mv data-driven-resume.pdf Tarcisio-Resume-All
           mv data-driven-resume-pt-br.pdf Tarcisio-CV-All
           mv data-driven-resume-small.pdf Tarcisio-Resume
-          mv data-driven-resume-small-pt-br.pdf Tarcisio-CV
+          mv data-driven-resume-pt-br-small.pdf Tarcisio-CV
           mv *.pdf resumes/
 
       - name: Rendering cover letter
