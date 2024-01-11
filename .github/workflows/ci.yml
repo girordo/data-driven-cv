@@ -31,10 +31,10 @@ jobs:
       - name: Render the resumes
         run: |
           Rscript -e "files_list <- c('data-driven-resume.Rmd', 'data-driven-resume-pt-br.Rmd', 'data-driven-resume-pt-br-small.Rmd', 'data-driven-resume-small.Rmd'); for (i in files_list) {rmarkdown::render(input = file.path(getwd(), i), params = list(work_dir = getwd()))}"
-          mv data-driven-resume.pdf Tarcisio-Resume-All
-          mv data-driven-resume-pt-br.pdf Tarcisio-CV-All
-          mv data-driven-resume-small.pdf Tarcisio-Resume
-          mv data-driven-resume-pt-br-small.pdf Tarcisio-CV
+          mv data-driven-resume.pdf Tarcisio-Resume-All.pdf
+          mv data-driven-resume-pt-br.pdf Tarcisio-CV-All.pdf
+          mv data-driven-resume-small.pdf Tarcisio-Resume.pdf
+          mv data-driven-resume-pt-br-small.pdf Tarcisio-CV.pdf
           mv *.pdf resumes/
 
       - name: Rendering cover letter
