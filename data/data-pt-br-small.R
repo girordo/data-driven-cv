@@ -1,6 +1,5 @@
 work <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Engenheiro de Software Senior", "Bosch", "Janeiro", 2024, "Presente", NA, "Campinas, Brasil - Remoto", "Languages used: Javascript, Java, HTML5, CSS3",
   "Engenheiro de Software Senior", "Bosch", "Janeiro", 2024, "Presente", NA, "Campinas, Brasil - Remoto", "Trabalhando como Engenheiro de Software Sênior utilizando React para o frontend, Java e Spring para o backend, Selenium, Cypress e Playwright para testes",
   "Engenheiro de Software Senior", "Bosch", "Janeiro", 2024, "Presente", NA, "Campinas, Brasil - Remoto", "Desenvolvendo novas funcionalidades e corrigindo bugs iterativamente através do quadro Jira utilizando SCRUM",
   "Engenheiro de Software Senior", "Bosch", "Janeiro", 2024, "Presente", NA, "Campinas, Brasil - Remoto", "Escrevendo testes de integração (E2E) usando Selenium, Cypress e Playwright",
