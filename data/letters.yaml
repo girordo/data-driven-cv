@@ -1,0 +1,100 @@
+letters:
+  cover-letter:
+    lang: "en"
+    formal: false
+    author: "Tarcísio Giroldo"
+    subject: "Application for Senior Software Engineer role"
+    opening: "Dear Drata HR,"
+    closing: "Yours truly,"
+    signature: "Tarcísio Giroldo"
+    output_filename: "cover-letter.pdf"
+    content: |
+      I'm a front-end software engineer with over 6 years of experience across several types of business and a bioinformatics and functional programming enthusiast.
+
+      During my BSc in biomedical informatics I worked as a intern researcher in bioinformatics where I gained expertise in data analysis using R, more specifically ggplot2, tidyr, dplyr, bioconductor packages(like limma and GEOQuery), and the creation of dashboards using Shiny I had classes such as Algorithm and Data Structures, Object Orient Programming, Databases and SQL, Machine Learning, Operating Systems and Distributed Systems. I also gained knowledge learning and using C, C++, R, Java and PostgreSQL.
+
+      At Spocket, I have had the privilege to work as a Frontend Engineer, utilizing React and its comprehensive ecosystem. I have contributed to the development of new features aligned with the company's coding standards and best practices. Notably, I have refactored legacy components to modern ES6+ standards, improving the maintainability and performance of the codebase. In addition, I created a guide for unit testing to facilitate effective collaboration within the team. My role also involved the successful implementation of a new CI/CD pipeline using Github Actions, AWS S3, and Cloudfront, resulting in streamlined deployment processes and improved efficiency.
+
+      My tenure at Dasa as a Software Engineer provided me with the opportunity to work extensively with React and associated technologies. I was responsible for developing new features, ensuring bug-free performance, and implementing refactoring strategies to enhance the design system's developer experience. My commitment to quality was demonstrated through the creation of a comprehensive unit testing suite, achieving an impressive 80% test coverage. Additionally, I spearheaded improvements to the CI/CD pipeline, leveraging Jenkins to enhance reliability and reduce processing time.
+
+      During my time as a Full Stack Engineer at Softwrap, I excelled in coordinating a dedicated team focused on crafting a seamless hybrid application using React Native and Firebase. Leading this team of 3 developers, I not only delivered on project goals but also nurtured the growth of junior team members through mentorship and guidance. One of my significant accomplishments was creating a pixel-perfect React Native application for the meticulous accounting needs of the firms, showcasing my dedication to precision and attention to detail.
+
+      In my previous role at SmartEnvios, I demonstrated my proficiency in a broader technology stack, handling full-stack development using React, Gatsby, TailwindCSS, Node.js, PostgreSQL, MongoDB, and Docker. I successfully contributed to the creation of the company's website, developed web scraping solutions, and implemented efficient deployment strategies.
+
+      As a dedicated learner, I continually invest time in expanding my skillset. Currently, I am learning about CI/CD, Terraform, Ansible and Rust.
+
+      Thank you for considering my application. I look forward to the opportunity to discuss how my experience aligns with your team's goals in more detail.
+
+  cover-letter-formal:
+    lang: "en"
+    formal: true
+    author: "Tarcísio Giroldo"
+    subject: "Application for Frontend Software Engineer role"
+    opening: "Dear HR,"
+    closing: "Yours truly,"
+    signature: "Tarcísio Giroldo"
+    output_filename: "cover-letter-formal.pdf"
+    content: |
+      In my professional journey, I have cultivated a diverse set of skills that span various technology domains. With over 6 years of experience, Javascript is not just a programming language for me; it's my native language. I embarked on this journey in 2013, gradually transitioning into working professionally with it, particularly on the frontend. I have a robust command over React and its ecosystem, employing styled-components, Ant Design, and TailwindCSS for sophisticated stylization. My expertise extends to state management using Context API, Redux, Redux Toolkit (RTK), and Zustand. I've harnessed the power of React Query from Tanstack for asynchronous state management and used axios and fetch APIs to interact with diverse backends. I've championed unit testing through React Testing Library (RTL) and Jest, and I've harnessed the capabilities of Next.js for SSR and ISR while also creating blog sites with Gatsby.
+
+      But my skill set doesn't stop at Javascript. I've delved into Typescript, leveraging Zod for schema validation, and Prisma for database handling in conjunction with Next.js, NestJS, and Fastify. Rust has also captured my attention, becoming my preferred side language for personal projects. I'm adept at using the tokio runtime for asynchronous programming and working with frameworks like actix-web, axum, gotham, and tide. I've utilized ORMs such as sqlx and diesel, enhancing efficiency and maintainability. My exploration extends to Elixir, where I've honed skills in creating APIs and fullstack applications with Phoenix, handling databases with Ecto, and utilizing code analysis tools like credo and dialyxir.
+
+      In the realm of HTML/CSS, I'm skilled in creating semantic and accessible web applications, meticulously following a11y guidelines. I'm experienced in CSS, implementing the BEM methodology to enhance code organization and maintainability. My proficiency extends to the domain of data manipulation with R, where I've leveraged Bioconductor packages like limma and GEOQuery, conducted data wrangling and visualization with ggplot2, tidyr, and dplyr, and orchestrated integrations with both relational and non-relational databases.
+
+      My journey also encompasses DevOps practices, where I've embraced Docker to streamline application deployment. I've orchestrated continuous integration and deployment using Jenkins, CircleCI, and Github Actions, while also utilizing cloud platforms like Cloudflare, Netlify, and Vercel for personal projects. I've ventured into code quality assessment with SonarQube and security enforcement through Fortify. My familiarity with AWS - EC2, S3, Cloudfront, LightSail, and Amplify - exemplifies my proficiency in cloud infrastructure management. Additionally, I'm in the process of mastering Terraform and Ansible to further enhance my DevOps arsenal.
+
+      Related to databases, my experience spans both relational and non-relational systems, including PostgreSQL, MongoDB, and the integration of Firebase and Supabase into various projects. Fluent in Portuguese as a native speaker and proficient in English at a C1 level, I thrive in diverse linguistic environments. My multifaceted skill set reflects my commitment to staying at the forefront of technology and my unwavering passion for creating impactful solutions.
+
+      As a hobby I enjoy spending time with my family and my dog ​​and also hanging out with my friends. I am a communicative and empathetic person and I always try to understand the other side of the conversation. I really appreciate studying new techs for frontend and functional programming (right now I'm learning Elixir and Phoenix).
+
+      I firmly believe that I’d be a great addition to the team. Thanks for taking the time to review my application.
+
+  cover-letter-pt-br:
+    lang: "pt"
+    formal: false
+    author: "Tarcísio Giroldo"
+    subject: "Vaga para Engenheiro de Software - Frontend"
+    opening: "Caro time de RH,"
+    closing: "Atenciosamente,"
+    signature: "Tarcísio Giroldo"
+    output_filename: "cover-letter-pt-br.pdf"
+    content: |
+      Sou um engenheiro de software front-end com mais de 6 anos de experiência em diversos tipos de negócios e um entusiasta de bioinformática e programação funcional.
+
+      Durante minha graduação em informática biomédica, trabalhei como pesquisador estagiário em bioinformática, onde adquiri expertise em análise de dados usando R, mais especificamente ggplot2, tidyr, dplyr, pacotes do bioconductor (como limma e GEOQuery) e a criação de painéis de controle usando Shiny. Tive disciplinas como Algoritmos e Estruturas de Dados, Programação Orientada a Objetos, Bancos de Dados e SQL, Aprendizado de Máquina, Sistemas Operacionais e Sistemas Distribuídos. Também adquiri conhecimento aprendendo e usando C, C++, R, Java e PostgreSQL.
+
+      Na Spocket, tive o privilégio de trabalhar como Engenheiro Frontend, utilizando o React e seu abrangente ecossistema. Contribuí para o desenvolvimento de novos recursos alinhados aos padrões de codificação e melhores práticas da empresa. Destaco a refatoração de componentes legados para os padrões modernos do ES6+, melhorando a manutenibilidade e o desempenho da base de código. Além disso, criei um guia para testes unitários para facilitar a colaboração eficaz dentro da equipe. Meu papel também envolveu a implementação bem-sucedida de um novo pipeline de CI/CD usando o Github Actions, AWS S3 e Cloudfront, resultando em processos de implantação otimizados e maior eficiência.
+
+      Minha passagem pela Dasa como Engenheiro de Software me proporcionou a oportunidade de trabalhar extensivamente com o React e tecnologias associadas. Fui responsável pelo desenvolvimento de novos recursos, garantindo um desempenho livre de erros e implementando estratégias de refatoração para aprimorar a experiência do desenvolvedor do sistema de design. Meu compromisso com a qualidade foi demonstrado por meio da criação de uma abrangente suíte de testes unitários, alcançando impressionantes 80% de cobertura de testes. Além disso, liderei melhorias no pipeline de CI/CD, aproveitando o Jenkins para aumentar a confiabilidade e reduzir o tempo de processamento.
+
+      Durante minha atuação como Engenheiro Full Stack na Softwrap, me destaquei coordenando uma equipe dedicada focada na criação de um aplicativo híbrido perfeito usando React Native e Firebase. Liderando essa equipe de 3 desenvolvedores, não apenas alcancei os objetivos do projeto, mas também fomentei o crescimento dos membros juniores por meio de orientação e mentorship. Uma das minhas conquistas significativas foi criar um aplicativo React Native perfeito em pixels para as exigências meticulosas de contabilidade das empresas, demonstrando minha dedicação à precisão e atenção aos detalhes.
+
+      Em minha função anterior na SmartEnvios, demonstrei minha proficiência em um stack de tecnologia mais amplo, lidando com desenvolvimento full-stack usando React, Gatsby, TailwindCSS, Node.js, PostgreSQL, MongoDB e Docker. Contribuí com sucesso para a criação do site da empresa, desenvolvi soluções de web scraping e implementei estratégias eficientes de implantação.
+
+      Como um aprendiz dedicado, continuamente invisto tempo em expandir meu conjunto de habilidades. Atualmente, estou aprendendo Elixir e Phoenix para enriquecer ainda mais minhas capacidades de programação. Minha abordagem holística para o desenvolvimento, espírito colaborativo e resolução proativa de problemas me fazem ter confiança de que posso contribuir de forma eficaz para o sucesso contínuo da empresa.
+
+      Obrigado por considerar minha candidatura. Estou ansioso pela oportunidade de discutir como minha experiência se alinha mais detalhadamente com os objetivos da sua equipe.
+
+  cover-letter-formal-pt-br:
+    lang: "pt"
+    formal: true
+    author: "Tarcísio Giroldo"
+    subject: "Vaga de Engenheiro de Software Frontend"
+    opening: "Caro HR,"
+    closing: "Atenciosamente,"
+    signature: "Tarcísio Giroldo"
+    output_filename: "cover-letter-formal-pt-br.pdf"
+    content: |
+      Na minha jornada profissional, desenvolvi um conjunto diversificado de habilidades que abrangem diversos domínios de tecnologia. Com mais de 6 anos de experiência, o Javascript não é apenas uma linguagem de programação para mim; é minha língua nativa. Iniciei essa jornada em 2013, fazendo uma transição gradual para trabalhar profissionalmente com ela, especialmente no frontend. Tenho um comando robusto sobre o React e seu ecossistema, usando styled-components, Ant Design e TailwindCSS para estilização sofisticada. Minha expertise se estende ao gerenciamento de estado usando a API de Contexto, Redux, Redux Toolkit (RTK) e Zustand. Explorei o poder do React Query da Tanstack para gerenciamento de estado assíncrono e utilizei as APIs axios e fetch para interagir com diversos backends. Defendi os testes unitários por meio do React Testing Library (RTL) e Jest, e aproveitei as capacidades do Next.js para SSR e ISR, além de criar sites de blog com o Gatsby.
+
+      Mas meu conjunto de habilidades não para no Javascript. Me aprofundei no Typescript, utilizando o Zod para validação de esquema e o Prisma para manipulação de bancos de dados em conjunto com o Next.js, NestJS e Fastify. O Rust também capturou minha atenção, se tornando minha linguagem secundária preferida para projetos pessoais. Sou habilidoso no uso do tokio runtime para programação assíncrona e no trabalho com frameworks como actix-web, axum, gotham e tide. Utilizei ORMs como sqlx e diesel, aprimorando eficiência e manutenibilidade. Minha exploração se estende ao Elixir, onde aprimorei habilidades na criação de APIs e aplicações fullstack com Phoenix, manipulação de bancos de dados com Ecto e utilização de ferramentas de análise de código como credo e dialyxir.
+
+      No domínio do HTML/CSS, tenho habilidade para criar aplicações web semânticas e acessíveis, seguindo meticulosamente as diretrizes de acessibilidade (a11y). Tenho experiência em CSS, implementando a metodologia BEM para aprimorar a organização e manutenção do código. Minha proficiência se estende ao domínio da manipulação de dados com R, onde utilizei pacotes do Bioconductor como limma e GEOQuery, realizei manipulação e visualização de dados com ggplot2, tidyr e dplyr, e orquestrei integrações com bancos de dados relacionais e não relacionais.
+
+      Minha jornada também abrange práticas de DevOps, onde adotei o Docker para otimizar o deployment de aplicações. Orquestrei integração e deployment contínuos usando Jenkins, CircleCI e Github Actions, além de utilizar plataformas de nuvem como Cloudflare, Netlify e Vercel para projetos pessoais. Me aventurei na avaliação da qualidade do código com o SonarQube e na implementação de segurança por meio do Fortify. Minha familiaridade com a AWS - EC2, S3, Cloudfront, LightSail e Amplify - exemplifica minha proficiência em gerenciamento de infraestrutura em nuvem. Além disso, estou no processo de dominar o Terraform e o Ansible para aprimorar ainda mais meu arsenal de DevOps.
+
+      Relacionado a bancos de dados, minha experiência abrange sistemas tanto relacionais quanto não relacionais, incluindo PostgreSQL, MongoDB e a integração do Firebase e Supabase em diversos projetos. Fluente em português como falante nativo e proficiente em inglês em nível C1, prospero em ambientes linguísticos diversos. Meu conjunto de habilidades multifacetado reflete meu compromisso em estar na vanguarda da tecnologia e minha paixão incansável por criar soluções impactantes.
+
+      Como hobby, gosto de passar tempo com minha família e meu cachorro, além de sair com meus amigos. Sou uma pessoa comunicativa e empática e sempre tento entender o outro lado da conversa. Realmente aprecio estudar novas tecnologias para frontend e programação funcional (atualmente estou aprendendo Elixir e Phoenix).
+
+      Acredito firmemente que seria uma ótima adição à equipe. Obrigado por dedicar tempo para avaliar minha candidatura.

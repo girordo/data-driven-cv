@@ -1,0 +1,90 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% ModernCV theme
+\moderncvstyle{classic}
+
+% Colors
+\definecolor{color0}{rgb}{0,0,0}% black
+\definecolor{color1}{HTML}{\VAR{personal.headcolor}}% custom accent
+\definecolor{color2}{rgb}{0.45,0.45,0.45}% dark grey
+
+\usepackage[scaled=0.86]{DejaVuSansMono}
+\usepackage[scale=0.75,footskip=60pt]{geometry}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\def\donothing#1{#1}
+\def\emaillink#1{#1}
+
+% Personal data
+\name{\VAR{personal.name}}{\VAR{personal.surname}}
+\title{\VAR{personal.position}}
+\email{\donothing{\VAR{personal.email}}}
+\homepage{\VAR{personal.www}}
+\social[github]{\VAR{personal.github}}
+\social[linkedin]{\VAR{personal.linkedin}}
+
+\BLOCK{if not compact and personal.aboutme}
+\quote{\VAR{personal.aboutme}}
+\BLOCK{endif}
+
+\begin{document}
+\makecvtitle
+
+% Section Employment / Experiência
+\section{\VAR{labels.employment}}
+\BLOCK{for job in experiences}
+\nopagebreak
+\cventry{\VAR{job.when}}{\VAR{job.what}}{\VAR{job.with}}{\VAR{job.where}}{}{%
+\begin{itemize}%
+\BLOCK{for detail in job.details}
+\item \VAR{detail}%
+\BLOCK{endfor}
+\end{itemize}%
+}
+\BLOCK{endfor}
+
+\BLOCK{if not compact}
+\pagebreak
+\BLOCK{endif}
+
+% Section Education / Educação
+\section{\VAR{labels.education}}
+\BLOCK{for edu in educations}
+\nopagebreak
+\cventry{\VAR{edu.when}}{\VAR{edu.what}}{\VAR{edu.with}}{\VAR{edu.where}}{}{%
+\begin{itemize}%
+\BLOCK{for detail in edu.details}
+\item \VAR{detail}%
+\BLOCK{endfor}
+\end{itemize}%
+}
+\BLOCK{endfor}
+
+\BLOCK{if not compact}
+% Section Languages / Idiomas
+\section{\VAR{labels.languages}}
+\BLOCK{for lang in languages}
+\nopagebreak
+\cventry{}{\VAR{lang.name}}{\VAR{lang.code}}{}{}{%
+\begin{itemize}%
+\item \VAR{lang.level}%
+\end{itemize}%
+}
+\BLOCK{endfor}
+
+% Section Skills / Competências
+\section{\VAR{labels.skills}}
+\BLOCK{for skill in skills}
+\nopagebreak
+\cventry{}{\VAR{skill.name}}{\VAR{skill.area}}{}{}{%
+\begin{itemize}%
+\BLOCK{for detail in skill.details}
+\item \VAR{detail}%
+\BLOCK{endfor}
+\end{itemize}%
+}
+\BLOCK{endfor}
+\BLOCK{endif}
+
+\end{document}

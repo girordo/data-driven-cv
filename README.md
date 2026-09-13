@@ -1,8 +1,8 @@
-# Data-Driven CV Automated with R, R markdown and Github Actions
+# Data-Driven CV Automated with Python, LaTeX (ModernCV) and Github Actions
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![CI for CV](https://github.com/girordo/data-driven-cv/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/girordo/data-driven-cv/actions/workflows/ci.yml)
 
-This repository contains the code and data to create an impressive data-driven CV (Curriculum Vitae) using R, R Markdown, vitae, LaTeX, YAML, and automated with GitHub Actions.
+This repository contains the code and data to create an impressive data-driven CV (Curriculum Vitae) and Cover Letters using Python, Jinja2, LaTeX (ModernCV & KOMA-Script scrlttr2), unified YAML data, and automated with GitHub Actions.
 
 ![Example AwesomeCV](imgs/image-awesomecv.png)
 ![Example ModernCV](imgs/image-moderncv.png)
@@ -16,30 +16,40 @@ This repository contains the code and data to create an impressive data-driven C
 
 ## Introduction
 
-Welcome to the Data-Driven CV project! This repository aims to automate the creation of an eye-catching CV using R and R Markdown, with the help of the `vitae` package for R. The project leverages the power of LaTeX to produce professional-looking PDF output. Additionally, it utilizes GitHub Actions and Docker to simplify the CV generation process.
+Welcome to the Data-Driven CV project! This project automates the creation of professional, eye-catching CVs and cover letters using Python and LaTeX (`moderncv` style `classic`), maintaining 100% visual fidelity while eliminating data duplication.
+
+### Key Highlights:
+- **Single Source of Truth**: All experiences, education, skills, and languages for both English and Portuguese are stored centrally in `data/cv_data.yaml`.
+- **Fast Python Pipeline**: A Python script (`build.py`) with Jinja2 handles templating and LaTeX compilation with `xelatex`.
+- **Automated CI/CD**: GitHub Actions compiles and commits the PDFs automatically on every push.
 
 ## How to Use
 
-To generate your data-driven CV using GitHub Actions and Docker, follow these steps:
+### Local Usage:
 
-1. Fork this repository to your GitHub account.
-
-2. Clone the forked repository to your local machine.
-
+1. Clone this repository:
 ```bash
 git clone https://github.com/your-username/data-driven-cv.git
 cd data-driven-cv
 ```
 
-3. Update the `data/data-generic.r` file with your CV information. The `data/data-generic.r` file will be used as the data source for creating your CV.
+2. Install Python dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-4. Customize the `data-driven-generic.Rmd` file according to your preferences and design choices. This file is where you can modify the content and layout of your CV.
+3. Update your information in `data/cv_data.yaml` and `data/letters.yaml`.
 
-5. Commit and push the changes to your GitHub repository.
+4. Generate all resumes and cover letters:
+```bash
+python build.py
+```
+The compiled PDFs will be saved in `resumes/` and `cover-letter/`.
 
-6. GitHub Actions will automatically trigger when you push changes to the `main` branch. The defined workflow will run the Docker container, which generates the PDF CV using the R script and R Markdown. The resulting PDF will be saved in the `resumes` folder.
+### Automated with GitHub Actions:
 
-7. Once the GitHub Actions workflow completes successfully, navigate to the "Actions" tab in your repository on GitHub. There, you can find the workflow run and download the generated PDF CV from the artifacts section.
+1. Commit and push your changes in `data/cv_data.yaml` or `data/letters.yaml`.
+2. GitHub Actions will trigger, render the PDFs using Python and LaTeX, and automatically commit the updated files to `resumes/` and `cover-letter/`.
 
 ## License
 

@@ -5,3 +5,10 @@
 *.sty
 *.cls
 fonts/
+.venv/
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.out
+*.synctex.gz
