@@ -2,54 +2,68 @@ name: CI for CV
 on:
   push:
     paths:
-    - .github/workflows/ci.yml
-    - 'data/**'
+      - .github/workflows/ci.yml
+      - 'data/**'
+      - 'templates/**'
+      - 'build.py'
     branches:
-      - main 
+      - main
+      - dev
   workflow_dispatch:
-    
+
 permissions: write-all
 
 jobs:
   build:
-    name: Creation of resume in en and pt-br
+    name: Creation of resume in en and pt-br (Python)
     runs-on: ubuntu-latest
-    container:
-      image: mlampros/mycvitae:rstudiodev
     steps:
-      - name: Set up Git repository
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Installing texlive
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python dependencies
         run: |
-          sudo apt-get -y update
-          sudo apt-get install -y texlive-base texlive-latex-base
-          sudo apt-get install -y texlive-latex-recommended
-          sudo apt-get install -y texlive-xetex
-          sudo apt-get install -y texlive-fonts-extra
+          pip install -q -r requirements.txt
 
-      - name: Render the resumes
+      - name: Cache TinyTeX
+        uses: actions/cache@v4
+        id: cache-tinytex
+        with:
+          path: |
+            ~/.TinyTeX
+            ~/.local/bin/xelatex
+            ~/.local/bin/tlmgr
+          key: ${{ runner.os }}-tinytex-moderncv-v1
+
+      - name: Install TinyTeX and LaTeX packages
+        if: steps.cache-tinytex.outputs.cache-hit != 'true'
         run: |
-          Rscript -e "files_list <- c('data-driven-resume.Rmd', 'data-driven-resume-pt-br.Rmd', 'data-driven-resume-pt-br-small.Rmd', 'data-driven-resume-small.Rmd'); for (i in files_list) {rmarkdown::render(input = file.path(getwd(), i), params = list(work_dir = getwd()))}"
-          mv data-driven-resume.pdf Tarcisio-Resume-All.pdf
-          mv data-driven-resume-pt-br.pdf Tarcisio-CV-All.pdf
-          mv data-driven-resume-small.pdf Tarcisio-Resume.pdf
-          mv data-driven-resume-pt-br-small.pdf Tarcisio-CV.pdf
-          mv *.pdf resumes/
+          curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
+          $HOME/.TinyTeX/bin/x86_64-linux/tlmgr install moderncv fontawesome6 fontawesome5 koma-script dejavu-otf collection-fontsrecommended pgf mathpazo dejavu
 
-      - name: Rendering cover letter
+      - name: Add TinyTeX to PATH
         run: |
-          Rscript -e "remotes::install_github('rnuske/komaletter', upgrade = 'always', dependencies = TRUE)"
-          Rscript -e "files_list <- c('cover-letter.Rmd', 'cover-letter-formal.Rmd', 'cover-letter-formal-pt-br.Rmd', 'cover-letter-pt-br.Rmd'); for (i in files_list) {rmarkdown::render(input = file.path(getwd(), i), params = list(work_dir = getwd()))}"
-          mv *.pdf cover-letter/ 
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          echo "$HOME/.TinyTeX/bin/x86_64-linux" >> $GITHUB_PATH
 
-        env:
-          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      - name: Render Resumes and Cover Letters
+        run: |
+          python3 build.py
 
-      - name: Commit files
+      - name: Commit and push changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add .
-          git commit -am "add the cv in english and pt-br files to the directory of the repository"
-          git push
+          git add resumes/*.pdf cover-letter/*.pdf
+          if git diff --staged --quiet; then
+            echo "No changes in PDFs to commit."
+          else
+            git commit -m "chore: update compiled CVs and cover letters [skip ci]"
+            git push
+          fi
