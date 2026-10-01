@@ -168,9 +168,27 @@ def build_resume(cv_data: dict, lang: str, compact: bool, output_pdf: Path, env:
 
     educations = []
     for edu in cv_data.get("education", []):
-        when_str = f"{edu['start_year']} -- {edu['end_year']}"
+        if compact and not edu.get("compact", True):
+            continue
+
+        end_year = edu.get("end_year")
+        if isinstance(end_year, dict):
+            end_y = end_year.get(lang, "")
+        elif end_year is not None:
+            end_y = str(end_year)
+        else:
+            end_y = "Present" if lang == "en" else "Presente"
+
+        start_year = edu.get("start_year", "")
+        if start_year and end_y:
+            when_str = f"{start_year} -- {end_y}"
+        elif start_year:
+            when_str = str(start_year)
+        else:
+            when_str = end_y
+
         details = []
-        for d in edu["details"].get(lang, []):
+        for d in edu.get("details", {}).get(lang, []):
             if isinstance(d, dict):
                 if compact and not d.get("compact", True):
                     continue

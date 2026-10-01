@@ -219,6 +219,18 @@ experience:
 
 education:
   - degree:
+      en: "MBA in Software Architecture & Solutions Architecture with AI"
+      pt: "MBA em Arquitetura de Software & Arquitetura de Soluções com IA"
+    institution: "XP Educação"
+    start_year: 2026
+    end_year:
+      en: "Present"
+      pt: "Presente"
+    location:
+      en: "Remote"
+      pt: "Remoto"
+    compact: true
+  - degree:
       en: "BSc in Biomedical Informatics"
       pt: "Bacharelado em Informática Biomédica"
     institution: "Universidade de São Paulo"

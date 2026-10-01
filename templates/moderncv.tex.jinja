@@ -53,11 +53,13 @@
 \BLOCK{for edu in educations}
 \nopagebreak
 \cventry{\VAR{edu.when}}{\VAR{edu.what}}{\VAR{edu.with}}{\VAR{edu.where}}{}{%
+\BLOCK{if edu.details}%
 \begin{itemize}%
 \BLOCK{for detail in edu.details}
 \item \VAR{detail}%
 \BLOCK{endfor}
 \end{itemize}%
+\BLOCK{endif}%
 }
 \BLOCK{endfor}
 
